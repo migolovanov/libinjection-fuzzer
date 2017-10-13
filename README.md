@@ -1,5 +1,5 @@
 #  libinjection fuzzer
-This tool is supposed to fuzz MySQL database query to find libinjection bypasses.
+This tool is supposed to fuzz MariaDB/MSSQL/MySQL/PostgreSQL/Oracle database query to find libinjection bypasses.
 
 ## Help
 ```
