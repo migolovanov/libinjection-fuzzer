@@ -1,7 +1,9 @@
 #  libinjection fuzzer
 This tool is supposed to fuzz MariaDB/MSSQL/MySQL/PostgreSQL/Oracle database query to find libinjection bypasses.
 Related articles:
+
 [libinjection: fuzz to bypass](https://waf.ninja/libinjection-fuzz-to-bypass/)
+
 [Part 2. libinjection: different databases fuzzing](https://waf.ninja/libinjection-different-databases-fuzzing/)
 
 ## Help
