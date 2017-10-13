@@ -22,7 +22,8 @@ def colorize(color, text):
 
 def parse_cli_args():
     parser = argparse.ArgumentParser(
-        description='libinjection fuzzer for MySQL database')
+        description='libinjection fuzzer for MariaDB, MSSQL, \
+            MySQL, PostgreSQL and Oracle database')
     parser.add_argument(
         '-t',
         '--type',
@@ -69,11 +70,6 @@ def parse_cli_args():
                         dest='check',
                         help='Check value',
                         default=False)
-    parser.add_argument('--threads',
-                        dest='threads',
-                        default=4,
-                        type=int,
-                        help='Set threads number (default: 4)')
     return parser.parse_args()
 
 

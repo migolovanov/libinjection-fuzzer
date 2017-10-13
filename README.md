@@ -8,7 +8,7 @@ usage: fuzzer.py [-h] [-t {mysql,mariadb,mssql,pgsql,oracle}] -q QUERY -p
                  PAYLOAD -c CHARS [-u USER] [--password PASSWORD] -d DB
                  [-o OUT] [--log-all] [--check CHECK] [--threads THREADS]
 
-libinjection fuzzer for MySQL database
+libinjection fuzzer MariaDB, MSSQL, MySQL, PostgreSQL and Oracle databases
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -26,7 +26,6 @@ optional arguments:
   -o OUT, --out OUT     Filename pattern (default: log)
   --log-all
   --check CHECK         Check value
-  --threads THREADS     Set threads number (default: 4)
 ```
 
 ## Usage example
